@@ -1,16 +1,37 @@
 <html>
-<body bgcolor="Plum">
+<body bgcolor="moccasin">
 <center><h1><font color="darkslateblue">Science-Fiction Movies</font></h1></center>
 <h2>
-<ul type="square">
-<li>Interstellar</li>
-<li>Ex Machina</li>
-<li>Annihilation</li>
-<li>TENET</li>
-<LI>Blade Runner</LI>
-<li>Alien</li>
-<li>Avatar</li>
-</ul>
+    <table align="center">
+        <tr>
+        <td>Text Books</td>
+        <td>
+        <select >
+        <option value="Select the book" selected>Select the Movie
+        <option value="C&Ds"> Blade Runner
+        <option value="Ads"> Blade Runner 2049
+        <option value="Java"> TENET
+        <option value="Oracle"> Interstellar
+        <option value="Ms SQL Server"> Ex Machina
+        <option value="MySql"> Alien
+        </select>
+        </td></tr>
+        <tr>
+        <td>Quantity</td>
+        <td><input type="text" id="q"></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <form method=post action="order.html">
+        <input type="submit" value=OK />
+        </form>
+        </td>
+        </tr>
+        </table>
+        <center>
+        <pre> Cost of one DVD is Rs. 250 and Shipping Rs. 90</pre>
+        </center>
 </h2>
 </body>
 </html>
