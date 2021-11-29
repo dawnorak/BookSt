@@ -1,16 +1,37 @@
 <html>
-<body bgcolor="Plum">
+<body bgcolor="moccasin">
 <center><h1><font color="darkslateblue">Comedy Movies</font></h1></center>
 <h2>
-<ol type="1">
-<li>Inhrent Vice</li>
-<li>Kingsman: The Secret Service</li>
-<li>Kiss Kiss Bang Bang</li>
-<li>Tropic Thunder</li>
-<li>Deadpool</li>
-<li>Brazil (1985)</li>
-<li>Guardians of the Galaxy</li>
-</ol>
+    <table align="center">
+        <tr>
+        <td>Movie Name</td>
+        <td>
+        <select >
+        <option value="Select the book" selected>Select the Movie
+        <option value="C&Ds"> Kingsman: The Secret Service
+        <option value="Ads"> Inherent Vice
+        <option value="Java"> Deadpool
+        <option value="Oracle"> Kiss Kiss Bang Bang
+        <option value="Ms SQL Server"> Tropic Thunder
+        <option value="MySql"> Brazil
+        </select>
+        </td></tr>
+        <tr>
+        <td>Quantity</td>
+        <td><input type="text" id="q"></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <form method=post action="order.html">
+        <input type="submit" value=OK />
+        </form>
+        </td>
+        </tr>
+        </table>
+        <center>
+        <pre> Cost of one DVD is Rs. 250 and Shipping Rs. 90</pre>
+        </center>
 </h2>
 </body>
 </html>
