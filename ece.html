@@ -1,11 +1,37 @@
 <html>
-<body bgcolor="Plum">
+<body bgcolor="moccasin">
 <center><h1><font color="darkslateblue">Action Movies</font></h1></center>
 <h2>
-<ul>
-<li>Die Hard</li> <li>Captain America: The Winter Soldier</li> <li>Total Tecall</li> <li>Predator</li> <li>Terminator 2: Judgement Day</li>
-<li>John Wick: Chapter 3 - Parabellum</li>
-</ul>
+    <table align="center">
+        <tr>
+        <td>Text Books</td>
+        <td>
+        <select >
+        <option value="Select the book" selected>Select the Movie
+        <option value="C&Ds"> Captain America: The Winter Soldier
+        <option value="Ads">Terminator 2 - Judgement Day
+        <option value="Java">Total Recall
+        <option value="Oracle">Rocky
+        <option value="Ms SQL Server">Predator
+        <option value="MySql">John Wick: Chapter 3 - Parabellum
+        </select>
+        </td></tr>
+        <tr>
+        <td>Quantity</td>
+        <td><input type="text" id="q"></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <form method=post action="order.html">
+        <input type="submit" value=OK />
+        </form>
+        </td>
+        </tr>
+        </table>
+        <center>
+        <pre> Cost of one DVD is Rs. 250 and Shipping Rs. 90</pre>
+        </center>
 </h2>
 </body>
 </html>
